@@ -1,6 +1,7 @@
 body {
     display: flex;
     flex-direction: column;
+    margin: 0;
 }
 
 header {
@@ -35,11 +36,10 @@ header {
 .flex-column {
     display: flex;
     flex-direction: column;
-    flex: 1;
-    width: 200px;
+    width: 500px;
 }
 
-.flex-column p{
+.flex-column p {
     color: pink;
 }
 
@@ -67,6 +67,7 @@ header {
     justify-content: center;
     align-items: center;
     background-color: #E5E7EB;
+    padding: 5em;
 }
 
 .quote-section p {
@@ -77,8 +78,26 @@ header {
 
 button {
     background-color: #3882f6;
+    max-width: 100px;
 }
 
 .lower-section {
     background-color: #3882f6;
+    display: flex;
+    max-width: 800px;
+    justify-content: center;
+    align-items: center;
+    padding: 2em;
+    margin: 4em;
+}
+
+.lower-section p{
+    max-width: 500px;
+}
+
+footer{
+    display: flex;
+    background-color: #1F2937;
+    color: white;
+    justify-content: center;
 }
