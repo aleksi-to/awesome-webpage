@@ -13,17 +13,13 @@ header {
     display: flex;
     margin-right: auto;
     padding-left: 1em;
+    font-size: 24px;
+    color: #F9FAF8;
 }
 
 .header-right>p {
     font-size: 18px;
     color: #E5E7EB;
-}
-
-.header-left {
-    font-size: 24px;
-    color: #F9FAF8;
-
 }
 
 .header-right {
@@ -105,12 +101,30 @@ footer {
     background-color: #1F2937;
     color: white;
     justify-content: center;
+    color: #F9FAF8;
 }
 
 .placeholder {
     background-color: grey;
 }
 
-.lower-left {}
+.lower-left {
+    font-size: 18px;
+    color: #F9FAF8;
+}
 
-.lower-right {}
+.lower-left p {
+    margin: 0;
+}
+
+.lower-right button {
+    color: #F9FAF8;
+    border-radius: 5px;
+    border-style: solid;
+    border-color: #F9FAF8;
+    border-width: 1px;
+}
+
+.bold {
+    font-weight: bolder;
+}
