@@ -15,10 +15,15 @@ header {
     padding-left: 1em;
 }
 
-.header-left p,
 .header-right>p {
     font-size: 18px;
     color: #E5E7EB;
+}
+
+.header-left {
+    font-size: 24px;
+    color: #F9FAF8;
+
 }
 
 .header-right {
@@ -31,6 +36,7 @@ header {
     display: flex;
     background-color: #1F2937;
     justify-content: center;
+    padding: 2em;
 }
 
 .flex-column {
@@ -58,6 +64,7 @@ header {
 
 .middle-section {
     display: flex;
+    padding: 2em;
 }
 
 .box {}
@@ -67,7 +74,8 @@ header {
     justify-content: center;
     align-items: center;
     background-color: #E5E7EB;
-    padding: 5em;
+    padding: 3em 10em;
+
 }
 
 .quote-section p {
@@ -89,15 +97,20 @@ button {
     align-items: center;
     padding: 2em;
     margin: 4em;
+    gap: 5em;
 }
 
-.lower-section p{
-    max-width: 500px;
-}
-
-footer{
+footer {
     display: flex;
     background-color: #1F2937;
     color: white;
     justify-content: center;
 }
+
+.placeholder {
+    background-color: grey;
+}
+
+.lower-left {}
+
+.lower-right {}
